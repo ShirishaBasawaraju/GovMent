@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bureaucracy.exe: Your Guide to Government Schemes
 
 This project is a web application designed to help Indian citizens find and understand government schemes that are relevant to their needs. It uses a combination of a rule-based matching system and a conversational AI to provide a personalized and user-friendly experience.
@@ -43,3 +44,7 @@ The project is organized into the following main directories:
 *   `src/data`: Stores the application's data, including the `schemes.json` file, which contains a list of all the government schemes.
 *   `src/lib`: Contains the core logic of the application, including the `matcher.js` file, which handles the scheme-matching process.
 *   `src/services`: Includes the `gemini.js` file, which is responsible for making calls to the Google Gemini API.
+=======
+# GovMent
+Personalized Government Scheme Assistant 
+>>>>>>> 1c0773e36340c4aa714369e79446f3e485f21cb1
