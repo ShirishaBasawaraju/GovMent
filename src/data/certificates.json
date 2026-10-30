@@ -1,0 +1,885 @@
+[
+  {
+    "id": "aadhaar-card",
+    "name": "Aadhaar Card",
+    "category": "Identity and Personal Documents",
+    "short_description": "Aadhaar is an identity number issued by the Unique Identification Authority of India (UIDAI).",
+    "importance": [
+      "Used for identity verification where accepted.",
+      "May be requested for government services and welfare schemes, subject to applicable rules.",
+      "Helps residents access Aadhaar online services."
+    ],
+    "who_needs_it": [
+      "Residents who wish to enrol for Aadhaar.",
+      "People who need to update their Aadhaar details."
+    ],
+    "documents_required": [
+      "Proof of identity accepted by UIDAI.",
+      "Proof of address accepted by UIDAI, where required.",
+      "Other supporting documents depending on the enrolment or update request."
+    ],
+    "application_steps": [
+      "Visit the official UIDAI website.",
+      "Check the current enrolment or update requirements.",
+      "Book an appointment if available for the selected service.",
+      "Visit an authorised Aadhaar enrolment centre when in-person verification is required.",
+      "Keep the enrolment or update acknowledgement and track the status."
+    ],
+    "issuing_authority": "Unique Identification Authority of India (UIDAI)",
+    "official_application_url": "https://uidai.gov.in/en/my-aadhaar",
+    "official_information_url": "https://uidai.gov.in/",
+    "application_mode": "Online services and authorised enrolment or update centres, depending on the service",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "pan-card",
+    "name": "PAN Card",
+    "category": "Identity and Financial Documents",
+    "short_description": "Permanent Account Number (PAN) is used for tax-related identification and specified financial transactions.",
+    "importance": [
+      "Used for income-tax-related services.",
+      "Required for certain financial and banking transactions under applicable rules.",
+      "May be requested for financial applications and records."
+    ],
+    "who_needs_it": [
+      "Individuals who need a PAN for tax or financial purposes.",
+      "People who need to correct, update or replace their PAN records."
+    ],
+    "documents_required": [
+      "Proof of identity as specified for the selected application type.",
+      "Proof of address as specified for the selected application type.",
+      "Proof of date of birth where required.",
+      "Photograph, signature or supporting declarations where applicable."
+    ],
+    "application_steps": [
+      "Visit the official Income Tax Department website or an authorised PAN service provider.",
+      "Select the applicable PAN application service.",
+      "Check the current application form and document requirements.",
+      "Submit the application and complete the required verification.",
+      "Track the application using the acknowledgement details."
+    ],
+    "issuing_authority": "Income Tax Department, Government of India",
+    "official_application_url": "https://www.incometax.gov.in/",
+    "official_information_url": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/income-tax-forms",
+    "application_mode": "Online through authorised services; availability depends on the application type",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "voter-id",
+    "name": "Voter ID / Elector Photo Identity Card",
+    "category": "Identity and Civic Documents",
+    "short_description": "A voter identity card is associated with electoral registration and helps identify an enrolled elector.",
+    "importance": [
+      "Supports electoral identity verification.",
+      "Allows eligible citizens to participate in elections when their name is included in the electoral roll.",
+      "The official portal provides registration, correction and application-tracking services."
+    ],
+    "who_needs_it": [
+      "Eligible Indian citizens who want to register as voters.",
+      "Registered voters who need to correct or update their details."
+    ],
+    "documents_required": [
+      "Recent photograph, where required.",
+      "Age or date-of-birth proof accepted by the Election Commission.",
+      "Address proof accepted for electoral registration.",
+      "Additional information or documents required by the selected form."
+    ],
+    "application_steps": [
+      "Open the Election Commission of India's Voters' Services Portal.",
+      "Register or sign in as required.",
+      "Select the appropriate service for new registration or correction.",
+      "Complete the form and upload the requested documents.",
+      "Track the application and respond to any verification request."
+    ],
+    "issuing_authority": "Election Commission of India and the relevant electoral registration authorities",
+    "official_application_url": "https://voters.eci.gov.in/",
+    "official_information_url": "https://voters.eci.gov.in/",
+    "application_mode": "Online application with verification where required",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "passport",
+    "name": "Indian Passport",
+    "category": "Identity and Travel Documents",
+    "short_description": "An Indian passport is an official travel document issued to eligible Indian citizens.",
+    "importance": [
+      "Required for international travel, subject to destination and travel rules.",
+      "Serves as an official identity and nationality document.",
+      "May be useful as supporting identity or address evidence where accepted."
+    ],
+    "who_needs_it": [
+      "Indian citizens planning international travel.",
+      "Applicants seeking a fresh passport or passport reissue."
+    ],
+    "documents_required": [
+      "Documents proving identity and date of birth as applicable.",
+      "Address proof specified by Passport Seva.",
+      "Existing passport for a reissue application, where applicable.",
+      "Additional documents for minors or special cases."
+    ],
+    "application_steps": [
+      "Register on the official Passport Seva portal.",
+      "Choose fresh passport or reissue, as applicable.",
+      "Complete and submit the online application.",
+      "Pay the applicable fee and schedule an appointment.",
+      "Visit the selected Passport Seva Kendra or Post Office Passport Seva Kendra with the required original documents.",
+      "Track the application status online."
+    ],
+    "issuing_authority": "Ministry of External Affairs, Government of India",
+    "official_application_url": "https://www.passportindia.gov.in/",
+    "official_information_url": "https://www.passportindia.gov.in/psp/GettingStarted",
+    "application_mode": "Online application followed by an appointment and verification",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "birth-certificate",
+    "name": "Birth Certificate",
+    "category": "Birth and Family Records",
+    "short_description": "A birth certificate is an official record of a person's birth registered with the competent civil registration authority.",
+    "importance": [
+      "Records the person's birth details.",
+      "Can be used as age or date-of-birth evidence where accepted.",
+      "May be required for school admission, passports and other official services."
+    ],
+    "who_needs_it": [
+      "Parents registering a child's birth.",
+      "People who need an official copy of a registered birth record.",
+      "Applicants who need to correct or register an eligible birth record."
+    ],
+    "documents_required": [
+      "Hospital or birth-facility record, where applicable.",
+      "Parent or informant identity details.",
+      "Address and birth details requested by the local registration authority.",
+      "Additional evidence for delayed registration or corrections, as required."
+    ],
+    "application_steps": [
+      "Identify the competent registrar or local civil registration authority.",
+      "Check whether birth registration or certificate download is available online in the relevant state or locality.",
+      "Submit the prescribed form and supporting records.",
+      "Complete any additional verification required for delayed registration or corrections.",
+      "Collect or download the certificate when it becomes available."
+    ],
+    "issuing_authority": "Competent Registrar of Births and Deaths or relevant local authority",
+    "official_application_url": null,
+    "official_information_url": "https://services.india.gov.in/service/detail/civil-registration-system-birth-and-death-certificate",
+    "application_mode": "Online or through the local registration authority, depending on the state and service",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "income-certificate",
+    "name": "Income Certificate",
+    "category": "Income and Financial Status",
+    "short_description": "An income certificate records income details as assessed or certified by the competent authority.",
+    "importance": [
+      "May be required for income-based welfare schemes and scholarships.",
+      "Can support applications for eligible fee concessions or financial assistance.",
+      "May be requested when assessing income-related eligibility."
+    ],
+    "who_needs_it": [
+      "Students applying for eligible scholarships.",
+      "Families applying for income-based benefits.",
+      "Applicants whose selected government service requires certified income evidence."
+    ],
+    "documents_required": [
+      "Identity proof accepted by the relevant authority.",
+      "Address or residence proof.",
+      "Income evidence such as salary records, employer details or other accepted records.",
+      "Self-declaration or family income details, where required.",
+      "Additional documents specified by the state or local authority."
+    ],
+    "application_steps": [
+      "Open the National Government Services Portal and search for Income Certificate.",
+      "Select the relevant state and district service.",
+      "Review the official eligibility and document checklist.",
+      "Submit the application through the linked state portal or designated office.",
+      "Complete verification and track the application."
+    ],
+    "issuing_authority": "State or local revenue authority, depending on the applicable rules",
+    "official_application_url": null,
+    "official_information_url": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm",
+    "application_mode": "Online or offline, depending on the state",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "caste-certificate",
+    "name": "Caste / Community Certificate",
+    "category": "Social Category and Community Documents",
+    "short_description": "A caste or community certificate records a person's recognised caste or community status under the applicable rules.",
+    "importance": [
+      "May be required for eligible reservation benefits.",
+      "May support scholarship or welfare applications for specified communities.",
+      "Can be required for admissions and recruitment where category documentation is prescribed."
+    ],
+    "who_needs_it": [
+      "Applicants who need official proof of a recognised caste or community.",
+      "Students or job applicants seeking benefits for which this certificate is required.",
+      "Eligible families applying for community-based welfare services."
+    ],
+    "documents_required": [
+      "Identity proof.",
+      "Residence proof.",
+      "Applicant and family details.",
+      "Existing family or community records where accepted.",
+      "Additional evidence or declarations required by the issuing authority."
+    ],
+    "application_steps": [
+      "Visit the National Government Services Portal.",
+      "Search for the caste or community certificate service for the relevant state.",
+      "Read the state-specific eligibility conditions and document list.",
+      "Submit the application to the designated authority.",
+      "Complete any required local verification and track the application."
+    ],
+    "issuing_authority": "Competent state revenue or other designated authority",
+    "official_application_url": null,
+    "official_information_url": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm",
+    "application_mode": "Online or offline, depending on the state",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "ews-certificate",
+    "name": "Economically Weaker Section (EWS) Certificate",
+    "category": "Income and Reservation Documents",
+    "short_description": "An EWS certificate provides evidence of eligibility for specified Economically Weaker Section benefits under applicable rules.",
+    "importance": [
+      "May be required for eligible EWS reservation claims.",
+      "May be requested during admission or recruitment processes that provide EWS benefits.",
+      "Helps document eligibility when the relevant authority requires it."
+    ],
+    "who_needs_it": [
+      "Applicants who may qualify under the applicable EWS rules.",
+      "Students applying to an institution that accepts or requires an EWS certificate.",
+      "Recruitment applicants claiming an applicable EWS reservation."
+    ],
+    "documents_required": [
+      "Identity and residence proof.",
+      "Income evidence for the prescribed period.",
+      "Asset or property information where required by the applicable rules.",
+      "Family details and declarations.",
+      "Other documents specified by the competent authority."
+    ],
+    "application_steps": [
+      "Check the current EWS rules for the relevant state, institution or recruitment authority.",
+      "Locate the appropriate certificate service through the state portal or National Government Services Portal.",
+      "Review the applicable income, asset and other eligibility conditions.",
+      "Submit the application with the prescribed evidence.",
+      "Complete verification and obtain the certificate if approved."
+    ],
+    "issuing_authority": "Competent authority designated under the applicable EWS rules",
+    "official_application_url": null,
+    "official_information_url": "https://www.india.gov.in/services/details/apply-online-for-economically-weaker-section-ews-certificate",
+    "application_mode": "Online or offline, depending on the issuing authority",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "residence-certificate",
+    "name": "Residence Certificate",
+    "category": "Residence and Address Documents",
+    "short_description": "A residence certificate confirms residence in a specified area under the rules of the issuing authority.",
+    "importance": [
+      "May be required for state-level welfare schemes.",
+      "Can support local admissions or service applications where accepted.",
+      "May help establish residence for a particular administrative purpose."
+    ],
+    "who_needs_it": [
+      "Residents applying for services that require certified residence proof.",
+      "Students or families applying for eligible state-level benefits.",
+      "Applicants whose relevant authority requests this certificate."
+    ],
+    "documents_required": [
+      "Identity proof.",
+      "Address evidence such as an accepted utility bill or other residence record.",
+      "Applicant or family details.",
+      "Additional proof requested by the local authority."
+    ],
+    "application_steps": [
+      "Find the residence certificate service for the relevant state or district.",
+      "Check whether an existing address document is sufficient or a certificate is required.",
+      "Complete the official application form.",
+      "Upload or submit the accepted supporting documents.",
+      "Complete verification and track the application."
+    ],
+    "issuing_authority": "State or local authority designated for residence certification",
+    "official_application_url": null,
+    "official_information_url": "https://ts.meeseva.telangana.gov.in/meeseva/home.htm",
+    "application_mode": "Online or offline, depending on the state",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "domicile-certificate",
+    "name": "Domicile Certificate",
+    "category": "Residence and State Eligibility Documents",
+    "short_description": "A domicile certificate establishes domicile or state-related status for purposes defined by the applicable state rules.",
+    "importance": [
+      "May be required for eligible state quota admissions.",
+      "May support applications for certain state government jobs or schemes.",
+      "Can provide official evidence of domicile when specifically required."
+    ],
+    "who_needs_it": [
+      "Students applying for admissions with a domicile requirement.",
+      "Applicants for state services that require domicile evidence.",
+      "Residents applying for benefits with a domicile condition."
+    ],
+    "documents_required": [
+      "Identity proof.",
+      "Residence history or address evidence.",
+      "Birth, schooling or family records where required.",
+      "Applicant declaration and other state-specific supporting documents."
+    ],
+    "application_steps": [
+      "Check the domicile rules of the relevant state.",
+      "Find the official domicile certificate service through the state portal.",
+      "Review the required period of residence and other conditions.",
+      "Submit the application and supporting records.",
+      "Complete verification and check the application status."
+    ],
+    "issuing_authority": "Competent state revenue or other designated authority",
+    "official_application_url": null,
+    "official_information_url": "https://aaplesarkar.mahaonline.gov.in/en",
+    "application_mode": "Online or offline, depending on the state",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "ration-card",
+    "name": "Ration Card",
+    "category": "Food Security and Family Documents",
+    "short_description": "A ration card is a state-administered household record used for applicable public distribution system benefits.",
+    "importance": [
+      "May allow eligible households to receive subsidised food grains under applicable rules.",
+      "Records household members for public distribution services.",
+      "May be used as supporting evidence for some services where accepted."
+    ],
+    "who_needs_it": [
+      "Households eligible for a ration card under state rules.",
+      "Families applying for a new card or changes to household details.",
+      "Existing cardholders who need correction, transfer or replacement services."
+    ],
+    "documents_required": [
+      "Identity details for household members.",
+      "Address or residence proof.",
+      "Family composition details.",
+      "Existing ration card for changes or transfer, where applicable.",
+      "Additional documents required by the state food and civil supplies department."
+    ],
+    "application_steps": [
+      "Visit the official food and civil supplies portal for the relevant state.",
+      "Choose the new ration card or correction service.",
+      "Read the current eligibility conditions.",
+      "Submit the form and required household documents.",
+      "Complete any required verification and check the application status."
+    ],
+    "issuing_authority": "State or Union Territory Food and Civil Supplies Department",
+    "official_application_url": null,
+    "official_information_url": "https://epds.telangana.gov.in/",
+    "application_mode": "Online or offline, depending on the state",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "disability-udid",
+    "name": "Disability Certificate / UDID Card",
+    "category": "Disability and Social Welfare Documents",
+    "short_description": "A disability certificate records an assessment by an authorised medical authority. The Unique Disability ID (UDID) system supports disability certification and identity services.",
+    "importance": [
+      "May be required for disability-related benefits and concessions.",
+      "Can support applications for eligible education, employment or welfare services.",
+      "Provides official disability documentation where accepted by the relevant programme."
+    ],
+    "who_needs_it": [
+      "People seeking official disability certification.",
+      "Applicants for schemes or services that require disability documentation.",
+      "Existing certificate holders seeking applicable UDID services."
+    ],
+    "documents_required": [
+      "Identity proof.",
+      "Address details.",
+      "Photograph and other requested personal information.",
+      "Medical records relevant to the disability, where requested.",
+      "Additional documents specified by the authorised medical authority."
+    ],
+    "application_steps": [
+      "Visit the official UDID portal or the Department of Empowerment of Persons with Disabilities website.",
+      "Review the current registration and application instructions.",
+      "Submit the prescribed application and supporting records.",
+      "Attend medical assessment or verification if required.",
+      "Track the application and follow the official instructions for obtaining the certificate or card."
+    ],
+    "issuing_authority": "Authorised medical authority under the applicable disability certification process",
+    "official_application_url": "https://www.swavlambancard.gov.in/",
+    "official_information_url": "https://depwd.gov.in/en/unique-disability-id-udid/",
+    "application_mode": "Online application with medical assessment or verification where required",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "marriage-certificate",
+    "name": "Marriage Certificate",
+    "category": "Marriage and Family Records",
+    "short_description": "A marriage certificate is an official record of a marriage registered with the competent authority.",
+    "importance": [
+      "Provides official evidence of a registered marriage.",
+      "May be required for spouse-related administrative services.",
+      "May support applications for benefits or records that require proof of marriage."
+    ],
+    "who_needs_it": [
+      "Couples seeking registration of their marriage.",
+      "Spouses who need an official copy of an existing marriage record.",
+      "Applicants whose official service requires proof of marriage."
+    ],
+    "documents_required": [
+      "Identity proof for both parties.",
+      "Age or date-of-birth evidence.",
+      "Address proof.",
+      "Photographs and marriage-related evidence as required.",
+      "Witness details and other records required by the applicable law or local authority."
+    ],
+    "application_steps": [
+      "Identify the marriage registration authority for the relevant state or locality.",
+      "Check the applicable marriage law and current document list.",
+      "Complete the registration application.",
+      "Book an appointment or attend in person if required.",
+      "Submit the original documents and complete verification.",
+      "Obtain the certificate according to the authority's instructions."
+    ],
+    "issuing_authority": "Marriage Registrar or other competent registration authority",
+    "official_application_url": null,
+    "official_information_url": "https://www.india.gov.in/services/details/online-application-of-marriage-certificate",
+    "application_mode": "Online or offline, depending on the state and service",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "death-certificate",
+    "name": "Death Certificate",
+    "category": "Death and Family Records",
+    "short_description": "A death certificate is an official record of a death registered with the competent civil registration authority.",
+    "importance": [
+      "Provides official evidence of a registered death.",
+      "May be required for pension, insurance, banking and inheritance-related procedures.",
+      "Can support updates to official family and household records."
+    ],
+    "who_needs_it": [
+      "Family members or authorised applicants registering a death.",
+      "People who need a certified copy of a registered death record.",
+      "Applicants handling administrative matters following a death."
+    ],
+    "documents_required": [
+      "Hospital or medical record, where applicable.",
+      "Identity and details of the deceased as requested.",
+      "Informant or applicant details.",
+      "Additional evidence required for delayed registration or record corrections."
+    ],
+    "application_steps": [
+      "Contact the competent local Registrar of Births and Deaths.",
+      "Check the official online service available in the relevant state or locality.",
+      "Submit the registration or certificate request with supporting records.",
+      "Complete additional verification if required.",
+      "Collect or download the certificate when issued."
+    ],
+    "issuing_authority": "Competent Registrar of Births and Deaths or relevant local authority",
+    "official_application_url": null,
+    "official_information_url": "https://services.india.gov.in/service/detail/civil-registration-system-birth-and-death-certificate",
+    "application_mode": "Online or through the local registration authority, depending on the service",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "driving-licence",
+    "name": "Driving Licence",
+    "category": "Transport and Personal Documents",
+    "short_description": "A driving licence authorises a person to drive specified classes of motor vehicles subject to applicable law.",
+    "importance": [
+      "Required to legally drive a motor vehicle on public roads.",
+      "Provides evidence of driving authorisation.",
+      "May be required for transport-related services."
+    ],
+    "who_needs_it": [
+      "Eligible applicants seeking a learner's licence or driving licence.",
+      "Drivers who need to renew, update or replace a licence."
+    ],
+    "documents_required": [
+      "Proof of age accepted by the licensing authority.",
+      "Address proof.",
+      "Application form and photograph where required.",
+      "Medical certificate for applicable categories or cases.",
+      "Other documents required for the chosen licence service."
+    ],
+    "application_steps": [
+      "Visit the official Parivahan portal.",
+      "Select the relevant state and licensing service.",
+      "Read the eligibility and document requirements.",
+      "Complete the application and pay the applicable official fee.",
+      "Book and attend tests or appointments where required.",
+      "Track the application using the official portal."
+    ],
+    "issuing_authority": "State or Union Territory transport department and licensing authority",
+    "official_application_url": "https://parivahan.gov.in/",
+    "official_information_url": "https://parivahan.gov.in/",
+    "application_mode": "Online application with tests, appointments or in-person steps where required",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "vehicle-registration-certificate",
+    "name": "Vehicle Registration Certificate (RC)",
+    "category": "Vehicle and Transport Documents",
+    "short_description": "A vehicle Registration Certificate records the registration details of a motor vehicle.",
+    "importance": [
+      "Records the vehicle's official registration details.",
+      "Is an important vehicle document for lawful use on public roads.",
+      "May be required for ownership transfer and other transport services."
+    ],
+    "who_needs_it": [
+      "Vehicle owners registering a new vehicle.",
+      "Owners applying for a duplicate RC or updating registration details.",
+      "Applicants transferring vehicle ownership."
+    ],
+    "documents_required": [
+      "Vehicle and owner details.",
+      "Existing registration certificate for applicable update services.",
+      "Insurance or other vehicle records where required.",
+      "Identity proof and prescribed forms.",
+      "Additional documents depending on whether the request concerns new registration, transfer, renewal or replacement."
+    ],
+    "application_steps": [
+      "Open the official Parivahan portal.",
+      "Choose the relevant vehicle-related service and state.",
+      "Read the service-specific document checklist.",
+      "Submit the application and pay the applicable fee.",
+      "Attend inspection or verification if required.",
+      "Track the request through the official portal."
+    ],
+    "issuing_authority": "State or Union Territory transport department and registering authority",
+    "official_application_url": "https://parivahan.gov.in/",
+    "official_information_url": "https://parivahan.gov.in/",
+    "application_mode": "Online application with in-person verification where required",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "education-marksheet",
+    "name": "Educational Marksheet / Certificate",
+    "category": "Education Documents",
+    "short_description": "An educational marksheet or certificate records academic results or completion of a recognised course.",
+    "importance": [
+      "May be required for school, college and university admissions.",
+      "Supports applications for eligible scholarships and educational assistance.",
+      "May be requested for recruitment and verification."
+    ],
+    "who_needs_it": [
+      "Students applying for admissions or scholarships.",
+      "Job applicants who need to demonstrate educational qualifications.",
+      "People who need a duplicate or digitally issued academic record."
+    ],
+    "documents_required": [
+      "Examination details such as board, institution, year and roll number.",
+      "Identity details requested by the issuing board or institution.",
+      "Existing marksheet or certificate, if available.",
+      "Additional evidence required for duplicate or corrected records."
+    ],
+    "application_steps": [
+      "Identify the issuing school, college, university or examination board.",
+      "Check its official website for results, duplicate certificates or correction services.",
+      "Use DigiLocker if the relevant issuer and record are available there.",
+      "Submit the prescribed request with examination details and supporting evidence.",
+      "Follow the issuer's instructions for verification and delivery."
+    ],
+    "issuing_authority": "Relevant school, college, university or examination board",
+    "official_application_url": null,
+    "official_information_url": "https://www.digilocker.gov.in/",
+    "application_mode": "Online through the issuer or DigiLocker when supported; otherwise through the institution",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "study-bonafide-certificate",
+    "name": "Study / Bonafide Certificate",
+    "category": "Education Documents",
+    "short_description": "A study or bonafide certificate is issued by an educational institution to confirm a student's enrolment or association with that institution.",
+    "importance": [
+      "May be required for student scholarships or education assistance.",
+      "Can confirm current enrolment when a programme requests it.",
+      "May be used for student travel concessions or other services where accepted."
+    ],
+    "who_needs_it": [
+      "Students applying for benefits that require proof of enrolment.",
+      "Students seeking an official confirmation of their institution or course.",
+      "Applicants whose scholarship or administrative service requests the certificate."
+    ],
+    "documents_required": [
+      "Student identification or admission number.",
+      "Course, class and academic-year details.",
+      "Institution identity card or fee receipt if requested.",
+      "Application or request letter, where required."
+    ],
+    "application_steps": [
+      "Contact the school, college or university administration.",
+      "Ask for the institution's prescribed study or bonafide certificate process.",
+      "Submit the required student details and supporting records.",
+      "Pay a fee only if the institution's official rules prescribe one.",
+      "Collect the certificate or follow the institution's digital delivery process."
+    ],
+    "issuing_authority": "School, college or university where the student is enrolled",
+    "official_application_url": null,
+    "official_information_url": "https://www.digilocker.gov.in/",
+    "application_mode": "Through the educational institution; digital availability depends on the issuer",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "transfer-certificate",
+    "name": "Transfer Certificate (TC)",
+    "category": "Education Documents",
+    "short_description": "A transfer certificate is generally issued by a school or educational institution when a student leaves or transfers from it.",
+    "importance": [
+      "May be required for admission to another educational institution.",
+      "Records that the student has left the previous institution.",
+      "Supports transfer and admission procedures where the receiving institution requires it."
+    ],
+    "who_needs_it": [
+      "Students changing schools or institutions.",
+      "Parents or guardians completing a student's transfer process.",
+      "Applicants whose new institution requests a transfer certificate."
+    ],
+    "documents_required": [
+      "Student name and admission number.",
+      "Class, course and last-attended academic year.",
+      "Parent or guardian details where applicable.",
+      "School identity card or other records if requested.",
+      "Clearance or other documents required by the institution."
+    ],
+    "application_steps": [
+      "Contact the current or previous educational institution.",
+      "Ask for its official transfer certificate application process.",
+      "Submit the required student details and clearances.",
+      "Complete any outstanding institutional formalities.",
+      "Collect the transfer certificate according to the institution's process."
+    ],
+    "issuing_authority": "School or educational institution attended by the student",
+    "official_application_url": null,
+    "official_information_url": null,
+    "application_mode": "Through the issuing educational institution",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "land-records",
+    "name": "Land Ownership / Land Records",
+    "category": "Land and Agriculture Documents",
+    "short_description": "Official land records describe recorded information about a land parcel, its recorded holder or other rights, depending on the state's land-record system.",
+    "importance": [
+      "May be required for eligible agricultural schemes or land-related services.",
+      "Can help applicants access official records for a land parcel.",
+      "May support land administration, mutation or other property-related procedures."
+    ],
+    "who_needs_it": [
+      "Landholders who need copies of available official records.",
+      "Farmers applying for programmes that require accepted land evidence.",
+      "People checking land records or applying for eligible record corrections."
+    ],
+    "documents_required": [
+      "Survey number, plot number or other land identification details.",
+      "Village, mandal, district or equivalent location details.",
+      "Owner or recorded-holder details.",
+      "Registration or supporting property documents for services that require them."
+    ],
+    "application_steps": [
+      "Identify the official land-record portal for the state where the property is located.",
+      "Search using the land parcel details supported by that portal.",
+      "Follow the official process to view, download or request a certified copy.",
+      "For corrections or mutation, check the separate application requirements.",
+      "Use the competent registration or revenue authority when online records are insufficient."
+    ],
+    "issuing_authority": "State revenue and land-records department or other competent land authority",
+    "official_application_url": null,
+    "official_information_url": "https://services.india.gov.in/",
+    "application_mode": "Online records and/or local revenue office, depending on the state and service",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "legal-heir-certificate",
+    "name": "Legal Heir / Surviving Family Member Certificate",
+    "category": "Family and Legal Records",
+    "short_description": "A legal heir or surviving family member certificate is issued under the applicable state process to document family or heir details for specified administrative purposes.",
+    "importance": [
+      "May be requested for certain pension, service or family-record procedures.",
+      "Can support some applications following the death of a family member.",
+      "The certificate's legal effect and accepted uses depend on the applicable law and receiving authority."
+    ],
+    "who_needs_it": [
+      "Family members handling administrative matters after a death.",
+      "Applicants whose department or service specifically requests this certificate.",
+      "People seeking an official record of surviving family members under the relevant process."
+    ],
+    "documents_required": [
+      "Death certificate, where applicable.",
+      "Identity and address proof of the applicant.",
+      "Details of the deceased and family members.",
+      "Relationship evidence or family records where required.",
+      "Additional declarations or documents specified by the issuing authority."
+    ],
+    "application_steps": [
+      "Confirm which certificate is required by the receiving department.",
+      "Locate the relevant state revenue or civil service portal.",
+      "Read the current eligibility and document requirements.",
+      "Submit the application and supporting evidence.",
+      "Complete verification and follow the authority's instructions for collection."
+    ],
+    "issuing_authority": "State revenue or other designated authority, depending on the certificate and state",
+    "official_application_url": null,
+    "official_information_url": "https://services.india.gov.in/",
+    "application_mode": "Online or offline, depending on the state and certificate type",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "employment-registration",
+    "name": "Employment Exchange / Job Seeker Registration",
+    "category": "Employment Documents and Registrations",
+    "short_description": "Employment registration records a job seeker's details with a state employment service or another designated employment portal.",
+    "importance": [
+      "May provide access to employment-service information or job matching.",
+      "May be required for specific state employment services or programmes.",
+      "Can help job seekers maintain a profile with the relevant employment authority."
+    ],
+    "who_needs_it": [
+      "Job seekers who want to use state employment services.",
+      "Applicants for programmes that specifically require employment registration.",
+      "People seeking to update their profile in an employment portal."
+    ],
+    "documents_required": [
+      "Identity and contact details.",
+      "Address or residence details.",
+      "Educational qualification records.",
+      "Skills, experience or employment history where applicable.",
+      "Other details required by the specific employment portal."
+    ],
+    "application_steps": [
+      "Find the official employment or employment exchange portal for the relevant state.",
+      "Check eligibility and registration instructions.",
+      "Create a profile and enter the requested details.",
+      "Upload supporting records if requested.",
+      "Save the registration number and follow the portal's renewal or update requirements."
+    ],
+    "issuing_authority": "State employment department or designated employment service",
+    "official_application_url": null,
+    "official_information_url": "https://services.india.gov.in/",
+    "application_mode": "Online or through a designated employment office, depending on the state",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  },
+  {
+    "id": "domestic-family-ration-support-record",
+    "name": "Family / Household Register Extract",
+    "category": "Family and Residence Records",
+    "short_description": "A family or household register extract is a local administrative record available in some jurisdictions to document household or family details.",
+    "importance": [
+      "May support selected local administrative applications.",
+      "Can provide a record of household details where the jurisdiction maintains such a register.",
+      "May be requested for particular services, but it is not a universal replacement for a birth, income or legal heir certificate."
+    ],
+    "who_needs_it": [
+      "Residents whose local authority maintains such a register.",
+      "Applicants whose receiving department specifically requests a household register extract.",
+      "Families updating eligible household records."
+    ],
+    "documents_required": [
+      "Identity and address details.",
+      "Names and relationships of household members.",
+      "Existing local household records, if available.",
+      "Additional evidence requested by the local authority."
+    ],
+    "application_steps": [
+      "Check whether the relevant state or local authority issues this type of record.",
+      "Identify the official local service or administrative office.",
+      "Confirm the precise purpose for which the receiving department requires the record.",
+      "Submit the application and supporting details.",
+      "Complete verification and obtain the extract if available."
+    ],
+    "issuing_authority": "Local or state authority, where this type of record is maintained",
+    "official_application_url": null,
+    "official_information_url": "https://services.india.gov.in/",
+    "application_mode": "Depends on the state and local authority",
+    "fee": null,
+    "processing_time": null,
+    "related_scheme_ids": [],
+    "verification_status": "verify",
+    "published": false
+  }
+]

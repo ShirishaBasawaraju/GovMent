@@ -1,0 +1,433 @@
+{
+  "categories": [
+    "Identity",
+    "Residence",
+    "Income",
+    "Education",
+    "Caste and Community",
+    "Employment",
+    "Agriculture",
+    "Health",
+    "Financial",
+    "Other"
+  ],
+  "documents": [
+    {
+      "id": "aadhaar",
+      "name": "Aadhaar Card",
+      "category": "Identity",
+      "description": "An identity document used for identity verification where accepted.",
+      "common_uses": [
+        "Identity verification",
+        "Government service applications",
+        "KYC where accepted"
+      ],
+      "requirements": [
+        "Provide an Aadhaar number or card only when requested by the relevant authority.",
+        "Check whether alternative identity documents are accepted."
+      ],
+      "notes": "Do not assume Aadhaar is mandatory for every scheme."
+    },
+    {
+      "id": "pan",
+      "name": "PAN Card",
+      "category": "Identity",
+      "description": "A Permanent Account Number document used for tax and certain financial transactions.",
+      "common_uses": [
+        "Tax-related services",
+        "Financial account verification",
+        "Certain financial applications"
+      ],
+      "requirements": [
+        "Provide PAN details when required for the specific service."
+      ],
+      "notes": "PAN is not required for every welfare scheme."
+    },
+    {
+      "id": "voter-id",
+      "name": "Voter ID",
+      "category": "Identity",
+      "description": "An electoral photo identity document.",
+      "common_uses": [
+        "Identity verification where accepted",
+        "Electoral services"
+      ],
+      "requirements": [
+        "Provide the document if accepted by the relevant authority."
+      ],
+      "notes": "Check the authority's accepted identity-document list."
+    },
+    {
+      "id": "passport",
+      "name": "Passport",
+      "category": "Identity",
+      "description": "An official travel and identity document.",
+      "common_uses": [
+        "Identity verification where accepted",
+        "International travel"
+      ],
+      "requirements": [
+        "Submit it only when accepted or requested."
+      ],
+      "notes": "A passport is not a universal requirement for government benefits."
+    },
+    {
+      "id": "driving-licence",
+      "name": "Driving Licence",
+      "category": "Identity",
+      "description": "A document authorising a person to drive specified motor vehicles.",
+      "common_uses": [
+        "Driving authorisation",
+        "Identity proof where accepted"
+      ],
+      "requirements": [
+        "Use it as identity proof only where the authority accepts it."
+      ],
+      "notes": "Driving licence eligibility and application rules depend on the relevant transport authority."
+    },
+    {
+      "id": "birth-certificate",
+      "name": "Birth Certificate",
+      "category": "Identity",
+      "description": "An official record of birth.",
+      "common_uses": [
+        "Age and birth verification",
+        "School admissions",
+        "Certain government applications"
+      ],
+      "requirements": [
+        "Provide the certificate or an accepted alternative if requested."
+      ],
+      "notes": "Issuing authority and correction procedures vary by location."
+    },
+    {
+      "id": "address-proof",
+      "name": "Address Proof",
+      "category": "Residence",
+      "description": "A document accepted as evidence of a person's residential address.",
+      "common_uses": [
+        "Residence verification",
+        "Service applications",
+        "Address updates"
+      ],
+      "requirements": [
+        "Use a document from the authority's accepted list.",
+        "Check whether the document must be recent."
+      ],
+      "notes": "Accepted documents vary by service."
+    },
+    {
+      "id": "domicile",
+      "name": "Domicile or Residence Certificate",
+      "category": "Residence",
+      "description": "A certificate used to establish residence or domicile under applicable rules.",
+      "common_uses": [
+        "State-level schemes",
+        "Educational admissions",
+        "Residence-based benefits"
+      ],
+      "requirements": [
+        "Application form",
+        "Residence evidence",
+        "Identity proof",
+        "Other documents required by the issuing authority"
+      ],
+      "notes": "Eligibility periods and supporting evidence differ between states."
+    },
+    {
+      "id": "income",
+      "name": "Income Certificate",
+      "category": "Income",
+      "description": "A certificate issued by an authorised authority to establish income for specified purposes.",
+      "common_uses": [
+        "Scholarships",
+        "Welfare schemes",
+        "Fee concessions",
+        "Income-based benefits"
+      ],
+      "requirements": [
+        "Application form",
+        "Identity proof",
+        "Residence evidence, if required",
+        "Income-related evidence requested by the authority"
+      ],
+      "notes": "Income calculation periods and accepted evidence vary by scheme."
+    },
+    {
+      "id": "ews",
+      "name": "EWS Certificate",
+      "category": "Income",
+      "description": "A certificate used to establish eligibility under applicable Economically Weaker Section rules.",
+      "common_uses": [
+        "Eligible admissions",
+        "Recruitment reservation where applicable"
+      ],
+      "requirements": [
+        "Application form",
+        "Income and asset evidence",
+        "Identity and residence evidence",
+        "Other evidence specified by the issuing authority"
+      ],
+      "notes": "EWS rules are not interchangeable with every income-based welfare scheme."
+    },
+    {
+      "id": "bpl",
+      "name": "BPL or Poverty-Related Proof",
+      "category": "Income",
+      "description": "Evidence used by certain programmes to identify eligible households under their rules.",
+      "common_uses": [
+        "Selected welfare programmes",
+        "Subsidies where applicable"
+      ],
+      "requirements": [
+        "Use the household or eligibility record accepted by the specific programme."
+      ],
+      "notes": "A BPL card or status is not a universal requirement for all welfare schemes."
+    },
+    {
+      "id": "caste",
+      "name": "Caste Certificate",
+      "category": "Caste and Community",
+      "description": "An official certificate establishing caste or community status under applicable rules.",
+      "common_uses": [
+        "Eligible scholarships",
+        "Education applications",
+        "Reservation benefits",
+        "Community-specific schemes"
+      ],
+      "requirements": [
+        "Application form",
+        "Identity and residence evidence",
+        "Community-related supporting evidence requested by the authority"
+      ],
+      "notes": "The issuing authority and applicable certificate format depend on the state and purpose."
+    },
+    {
+      "id": "tribe",
+      "name": "Scheduled Tribe Certificate",
+      "category": "Caste and Community",
+      "description": "An official certificate establishing Scheduled Tribe status where applicable.",
+      "common_uses": [
+        "Eligible scholarships",
+        "Reservation benefits",
+        "Tribal welfare programmes"
+      ],
+      "requirements": [
+        "Application form",
+        "Identity and residence evidence",
+        "Other community evidence specified by the issuing authority"
+      ],
+      "notes": "Verify the accepted certificate format and issuing authority."
+    },
+    {
+      "id": "obc",
+      "name": "OBC Certificate",
+      "category": "Caste and Community",
+      "description": "A certificate establishing Other Backward Classes status for specified purposes.",
+      "common_uses": [
+        "Eligible scholarships",
+        "Education applications",
+        "Reservation benefits"
+      ],
+      "requirements": [
+        "Application form",
+        "Identity and residence evidence",
+        "Community-related supporting documents, if requested"
+      ],
+      "notes": "Some purposes require a specific certificate format or additional non-creamy-layer evidence."
+    },
+    {
+      "id": "non-creamy-layer",
+      "name": "Non-Creamy Layer Certificate",
+      "category": "Caste and Community",
+      "description": "A certificate used for applicable OBC non-creamy-layer eligibility.",
+      "common_uses": [
+        "Eligible education applications",
+        "Eligible recruitment processes"
+      ],
+      "requirements": [
+        "Community certificate, if required",
+        "Income and other evidence specified by the issuing authority"
+      ],
+      "notes": "Validity and rules depend on the purpose and issuing authority."
+    },
+    {
+      "id": "disability",
+      "name": "Disability Certificate",
+      "category": "Health",
+      "description": "An authorised certificate documenting disability for applicable services and benefits.",
+      "common_uses": [
+        "Eligible disability benefits",
+        "Education support",
+        "Employment-related provisions"
+      ],
+      "requirements": [
+        "Application through the authorised process",
+        "Medical assessment and supporting records as requested"
+      ],
+      "notes": "The applicable disability assessment and certification process must be verified."
+    },
+    {
+      "id": "udid",
+      "name": "UDID Card",
+      "category": "Health",
+      "description": "A Unique Disability ID card associated with the applicable disability certification process.",
+      "common_uses": [
+        "Disability-related identification",
+        "Services that accept UDID"
+      ],
+      "requirements": [
+        "Follow the official UDID application and certification process."
+      ],
+      "notes": "Check whether a particular scheme accepts or specifically requires UDID."
+    },
+    {
+      "id": "medical",
+      "name": "Medical Certificate or Records",
+      "category": "Health",
+      "description": "Medical evidence requested for certain health, disability, or treatment-related services.",
+      "common_uses": [
+        "Health-related applications",
+        "Medical leave or support",
+        "Specified disability processes"
+      ],
+      "requirements": [
+        "Obtain the specific report or certificate requested by the authority."
+      ],
+      "notes": "A general medical certificate may not replace a scheme-specific medical report."
+    },
+    {
+      "id": "marksheet",
+      "name": "Educational Marksheet",
+      "category": "Education",
+      "description": "A record of examination results issued by an educational board or institution.",
+      "common_uses": [
+        "Admissions",
+        "Scholarships",
+        "Education verification"
+      ],
+      "requirements": [
+        "Provide the relevant examination marksheet or accepted digital record."
+      ],
+      "notes": "The required examination and year depend on the application."
+    },
+    {
+      "id": "study",
+      "name": "Study or Bonafide Certificate",
+      "category": "Education",
+      "description": "A certificate from an educational institution confirming enrolment or student status.",
+      "common_uses": [
+        "Scholarship applications",
+        "Student concessions",
+        "Education-related benefits"
+      ],
+      "requirements": [
+        "Request the certificate from the relevant institution."
+      ],
+      "notes": "Some programmes require a specific institution-issued format."
+    },
+    {
+      "id": "transfer",
+      "name": "Transfer Certificate",
+      "category": "Education",
+      "description": "A document issued by an educational institution when a student leaves or transfers.",
+      "common_uses": [
+        "School or college admission",
+        "Transfer procedures"
+      ],
+      "requirements": [
+        "Request the document from the previous institution where applicable."
+      ],
+      "notes": "Not required for every scholarship or government scheme."
+    },
+    {
+      "id": "bank",
+      "name": "Bank Passbook or Account Proof",
+      "category": "Financial",
+      "description": "Evidence of a bank account, sometimes requested for direct benefit transfers.",
+      "common_uses": [
+        "Benefit payments",
+        "Scholarships",
+        "Eligible financial assistance"
+      ],
+      "requirements": [
+        "Provide the account details and proof requested by the scheme.",
+        "Check whether account-holder name or other conditions apply."
+      ],
+      "notes": "Do not share PINs, passwords, or OTPs when applying."
+    },
+    {
+      "id": "ration",
+      "name": "Ration Card",
+      "category": "Other",
+      "description": "A household document used for specified public distribution and welfare services.",
+      "common_uses": [
+        "Public distribution services",
+        "Household identification where accepted",
+        "Selected welfare schemes"
+      ],
+      "requirements": [
+        "Provide the applicable household ration-card record if requested."
+      ],
+      "notes": "Ration-card rules and eligibility differ by state and programme."
+    },
+    {
+      "id": "marriage",
+      "name": "Marriage Certificate",
+      "category": "Other",
+      "description": "An official record of marriage where registered under applicable law.",
+      "common_uses": [
+        "Marital-status verification",
+        "Selected legal or welfare applications"
+      ],
+      "requirements": [
+        "Follow the relevant registration authority's process."
+      ],
+      "notes": "Other evidence may be accepted for certain purposes; verify the specific rules."
+    },
+    {
+      "id": "farmer",
+      "name": "Farmer or Land-Related Records",
+      "category": "Agriculture",
+      "description": "Records used to verify agricultural activity, landholding, or farmer registration where required.",
+      "common_uses": [
+        "Agriculture programmes",
+        "Crop-related benefits",
+        "Farmer registration"
+      ],
+      "requirements": [
+        "Provide the records specifically requested by the agricultural authority."
+      ],
+      "notes": "Land ownership is not necessarily the only way to qualify for every farmer programme."
+    },
+    {
+      "id": "employment",
+      "name": "Employment or Skill Certificate",
+      "category": "Employment",
+      "description": "Evidence of employment status, training, or qualifications for specified applications.",
+      "common_uses": [
+        "Skill programmes",
+        "Employment assistance",
+        "Training applications"
+      ],
+      "requirements": [
+        "Provide the certificate or registration details requested by the programme."
+      ],
+      "notes": "Requirements depend on the programme and training provider."
+    },
+    {
+      "id": "affidavit",
+      "name": "Affidavit or Self-Declaration",
+      "category": "Other",
+      "description": "A formal declaration used where the relevant authority permits or requires it.",
+      "common_uses": [
+        "Selected application procedures",
+        "Correction or declaration processes"
+      ],
+      "requirements": [
+        "Use the prescribed declaration format, if one exists."
+      ],
+      "notes": "An affidavit cannot replace an official certificate when the authority requires one."
+    }
+  ]
+}
