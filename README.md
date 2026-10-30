@@ -188,9 +188,3 @@ Future enhancements could include:
 
 GovMent demonstrates how structured JSON data, rule-based eligibility assessment, scheme matching, and AI-powered conversational assistance can be combined to make government scheme information easier to explore. By providing personalized recommendations, explanations, and supporting information, the project aims to improve users' ability to identify schemes that may be relevant to their needs.
 
-## 14. Project Team
-
-- B. Shirisha
-- R. Ramesh
-- A. Rahul
-- Y. Rakshith
